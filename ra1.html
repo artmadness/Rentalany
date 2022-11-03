@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--==Title=========================================-->
+    <title>RantalAny HTML CSS</title>
+    <!--==CSS===========================================-->
+    <link rel="stylesheet" href="css/style.css"/>
+    <!--==fav-icon======================================-->
+    <link rel="shortcut icon" href="images/fav-icon.svg"/>
+    <!--==Import-Lato-Font==============================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!--==FontAwesome-for-ions==========================-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+
+</head>
+<body>
+
+    <section id="ra1">
+
+        <!--==navigation==============================-->
+        <nav class="ra-nav">
+
+            <!--**left*********************-->
+            <div class="ra-nav-left">
+                <!--logo-->
+                <a href="#" class="ra-logo">
+                    <img src="images/logo-icon.svg" alt=""/>
+                </a>
+                <!--mobile-search-icon-->
+                <input type="checkbox" class="search-mobile-btn" id="search-mobile">
+                <label for="search-mobile" class="mobile-search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </label>
+                <!--mobile-search-icon-close-->
+                <label for="search-mobile" class="mobile-search-icon-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </label>
+                <!--search-->
+                <div class="nav-search-container">
+                <form class="nav-search">
+                    <i class="fa-solid fa-location-dot nav-search-location-icon"></i>
+                    <input class="search-input" type="text" placeholder="Santa Clara, California" required/>
+                    <button class="nav-search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+                </div>
+                <!--filter-->
+                <a href="#" class="nav-filter">
+                    <span class="nav-filter-icon"><i class="fa-sharp fa-solid fa-sliders"></i></span> <span class="nav-filter-text">Filter</span>
+                </a>
+            </div>
+
+            <!--**right********************-->
+            <div class="ra-nav-right">
+                <!--notification-->
+                <a href="#" class="nav-notification">
+                    <i class="fa-solid fa-bell"></i>
+                </a>
+                <!--user-->
+                <div class="nav-user-container">
+                    <!--icons-->
+                    <div class="nav-user">
+                        <a href="#" class="nav-user-icon"><i class="fa-solid fa-user"></i></a>
+                        <a href="#" class="nav-bar-icon"><i class="fa-solid fa-bars"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <!--==Content================================================-->
+        <section class="ra-content-container">
+            <!--**side-bar***********************-->
+            <div class="ra-side-bar">
+
+                <!--top-->
+                <div class="ra-side-bar-top">
+                <!---->
+                <a href="#" class="ra-side-bar-icon">
+                    <img src="images/side-square-icon.svg" alt=""/>
+                </a>
+                <!---->
+                <a href="ra1.html" class="ra-side-bar-icon active">
+                    <img src="images/side-home-icon.svg" alt=""/>
+                </a>
+                <!---->
+                <a href="property_info_form1.html" class="ra-side-bar-icon">
+                    <img src="images/side-home-plus-icon.svg" alt=""/>
+                </a>
+                <!---->
+                <a href="#" class="ra-side-bar-icon">
+                    <img src="images/side-heart-icon.svg" alt=""/>
+                </a>
+                <!---->
+                <a href="#" class="ra-side-bar-icon">
+                    <img src="images/side-chat-icon.svg" alt=""/>
+                </a>
+                <!---->
+                <a href="#" class="ra-side-bar-icon">
+                    <img src="images/side-speaker-icon.svg" alt=""/>
+                </a>
+                <!---->
+                <a href="#" class="ra-side-bar-icon">
+                    <img src="images/side-modlus-icon.svg" alt=""/>
+                </a>
+                </div>
+                
+                <!--bottom-->
+                <div class="ra-side-bar-bottom">
+                    <!---->
+                    <a href="#" class="ra-side-bar-icon">
+                        <img src="images/side-setting-icon.svg" alt=""/>
+                    </a>
+                    <!---->
+                    <a href="#" class="ra-side-bar-icon">
+                        <img src="images/side-logout-icon.svg" alt=""/>
+                    </a>
+                </div>
+
+            </div>
+            <!--**content***********************-->
+            <input type="checkbox" id="close-map" class="close-map-btn">
+            <div class="ra-content">
+                <!--property-->
+                <div class="ra-property-container">
+                    <!--heading-->
+                    <div class="ra-property-heading">
+                        <span>100 Properties</span>
+                        <span>
+                            Sort By:
+                            <select name="" id="">
+                                <option value="latest">Latest</option>
+                                <option value="old">Old</option>
+                            </select>
+                        </span>
+                    </div>
+                    <!--proeprty-box-container-->
+                    <div class="ra-property-box-container">
+                        <!--box-->
+                        <div class="ra-property-box">
+                            <!--img-->
+                            <div class="ra-property-img">
+                                <div class="ra-property-img-grid">
+                                    <img src="images/p-demo.jpeg" alt=""/>
+                                    <img src="images/p-demo.jpeg" alt=""/>
+                                    <img src="images/p-demo.jpeg" alt=""/>
+                                </div>
+                            </div>
+                            <!--text-->
+                            <div class="ra-property-text">
+                                <div class="ra-property-text-top">
+                                    <div class="property-text-title">
+                                        <strong>Parahyangan Estate</strong>
+                                        <span><img src="images/box-location-icon.svg" alt=""/> Lembang, Indonesia</span>
+                                    </div>
+                                    <div class="property-text-options">
+                                        <a href="#">
+                                            <img src="images/box-option-1.svg" alt="">
+                                        </a>
+                                        <a href="#">
+                                            <img src="images/box-option-2.svg" alt="">
+                                        </a>
+                                        <a href="#">
+                                            <img src="images/box-option-3.svg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="ra-property-text-bottom">
+                                    <div class="property-info-box">
+                                        <div class="property-info-box-heading">
+                                            <img src="images/bed-icon.svg" alt=""> <span>3</span>
+                                        </div>
+                                        <span>Bedrooms</span>
+                                    </div>
+                                    <div class="property-info-box">
+                                        <div class="property-info-box-heading">
+                                            <img src="images/shawer-icon.svg" alt=""> <span>3</span>
+                                        </div>
+                                        <span>Bathrooms</span>
+                                    </div>
+                                    <div class="property-info-box">
+                                        <div class="property-info-box-heading">
+                                            <img src="images/square-icon.svg" alt=""> <span>3</span>
+                                        </div>
+                                        <span>Living Area</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--box-->
+                        <div class="ra-property-box">
+                            <!--img-->
+                            <div class="ra-property-img">
+                                <div class="ra-property-img-grid">
+                                    <img src="images/p-demo.jpeg" alt=""/>
+                                    <img src="images/p-demo.jpeg" alt=""/>
+                                    <img src="images/p-demo.jpeg" alt=""/>
+                                </div>
+                            </div>
+                            <!--text-->
+                            <div class="ra-property-text">
+                                <div class="ra-property-text-top">
+                                    <div class="property-text-title">
+                                        <strong>Parahyangan Estate</strong>
+                                        <span><img src="images/box-location-icon.svg" alt=""/> Lembang, Indonesia</span>
+                                    </div>
+                                    <div class="property-text-options">
+                                        <a href="#">
+                                            <img src="images/box-option-1.svg" alt="">
+                                        </a>
+                                        <a href="#">
+                                            <img src="images/box-option-2.svg" alt="">
+                                        </a>
+                                        <a href="#">
+                                            <img src="images/box-option-3.svg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="ra-property-text-bottom">
+                                    <div class="property-info-box">
+                                        <div class="property-info-box-heading">
+                                            <img src="images/bed-icon.svg" alt=""> <span>3</span>
+                                        </div>
+                                        <span>Bedrooms</span>
+                                    </div>
+                                    <div class="property-info-box">
+                                        <div class="property-info-box-heading">
+                                            <img src="images/shawer-icon.svg" alt=""> <span>3</span>
+                                        </div>
+                                        <span>Bathrooms</span>
+                                    </div>
+                                    <div class="property-info-box">
+                                        <div class="property-info-box-heading">
+                                            <img src="images/square-icon.svg" alt=""> <span>3</span>
+                                        </div>
+                                        <span>Living Area</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!--box-->
+                        <div class="ra-property-box">
+                            <!--img-->
+                            <div class="ra-property-img">
+                                <div class="ra-property-img-grid">
+                                    <img src="images/p-demo.jpeg" alt=""/>
+                                    <img src="images/p-demo.jpeg" alt=""/>
+                                    <img src="images/p-demo.jpeg" alt=""/>
+                                </div>
+                            </div>
+                            <!--text-->
+                            <div class="ra-property-text">
+                                <div class="ra-property-text-top">
+                                    <div class="property-text-title">
+                                        <strong>Parahyangan Estate</strong>
+                                        <span><img src="images/box-location-icon.svg" alt=""/> Lembang, Indonesia</span>
+                                    </div>
+                                    <div class="property-text-options">
+                                        <a href="#">
+                                            <img src="images/box-option-1.svg" alt="">
+                                        </a>
+                                        <a href="#">
+                                            <img src="images/box-option-2.svg" alt="">
+                                        </a>
+                                        <a href="#">
+                                            <img src="images/box-option-3.svg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="ra-property-text-bottom">
+                                    <div class="property-info-box">
+                                        <div class="property-info-box-heading">
+                                            <img src="images/bed-icon.svg" alt=""> <span>3</span>
+                                        </div>
+                                        <span>Bedrooms</span>
+                                    </div>
+                                    <div class="property-info-box">
+                                        <div class="property-info-box-heading">
+                                            <img src="images/shawer-icon.svg" alt=""> <span>3</span>
+                                        </div>
+                                        <span>Bathrooms</span>
+                                    </div>
+                                    <div class="property-info-box">
+                                        <div class="property-info-box-heading">
+                                            <img src="images/square-icon.svg" alt=""> <span>3</span>
+                                        </div>
+                                        <span>Living Area</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!--box-->
+                        <div class="ra-property-box">
+                            <!--img-->
+                            <div class="ra-property-img">
+                                <div class="ra-property-img-grid">
+                                    <img src="images/p-demo.jpeg" alt=""/>
+                                    <img src="images/p-demo.jpeg" alt=""/>
+                                    <img src="images/p-demo.jpeg" alt=""/>
+                                </div>
+                            </div>
+                            <!--text-->
+                            <div class="ra-property-text">
+                                <div class="ra-property-text-top">
+                                    <div class="property-text-title">
+                                        <strong>Parahyangan Estate</strong>
+                                        <span><img src="images/box-location-icon.svg" alt=""/> Lembang, Indonesia</span>
+                                    </div>
+                                    <div class="property-text-options">
+                                        <a href="#">
+                                            <img src="images/box-option-1.svg" alt="">
+                                        </a>
+                                        <a href="#">
+                                            <img src="images/box-option-2.svg" alt="">
+                                        </a>
+                                        <a href="#">
+                                            <img src="images/box-option-3.svg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="ra-property-text-bottom">
+                                    <div class="property-info-box">
+                                        <div class="property-info-box-heading">
+                                            <img src="images/bed-icon.svg" alt=""> <span>3</span>
+                                        </div>
+                                        <span>Bedrooms</span>
+                                    </div>
+                                    <div class="property-info-box">
+                                        <div class="property-info-box-heading">
+                                            <img src="images/shawer-icon.svg" alt=""> <span>3</span>
+                                        </div>
+                                        <span>Bathrooms</span>
+                                    </div>
+                                    <div class="property-info-box">
+                                        <div class="property-info-box-heading">
+                                            <img src="images/square-icon.svg" alt=""> <span>3</span>
+                                        </div>
+                                        <span>Living Area</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!--box-->
+                        <div class="ra-property-box">
+                            <!--img-->
+                            <div class="ra-property-img">
+                                <div class="ra-property-img-grid">
+                                    <img src="images/p-demo.jpeg" alt=""/>
+                                    <img src="images/p-demo.jpeg" alt=""/>
+                                    <img src="images/p-demo.jpeg" alt=""/>
+                                </div>
+                            </div>
+                            <!--text-->
+                            <div class="ra-property-text">
+                                <div class="ra-property-text-top">
+                                    <div class="property-text-title">
+                                        <strong>Parahyangan Estate</strong>
+                                        <span><img src="images/box-location-icon.svg" alt=""/> Lembang, Indonesia</span>
+                                    </div>
+                                    <div class="property-text-options">
+                                        <a href="#">
+                                            <img src="images/box-option-1.svg" alt="">
+                                        </a>
+                                        <a href="#">
+                                            <img src="images/box-option-2.svg" alt="">
+                                        </a>
+                                        <a href="#">
+                                            <img src="images/box-option-3.svg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="ra-property-text-bottom">
+                                    <div class="property-info-box">
+                                        <div class="property-info-box-heading">
+                                            <img src="images/bed-icon.svg" alt=""> <span>3</span>
+                                        </div>
+                                        <span>Bedrooms</span>
+                                    </div>
+                                    <div class="property-info-box">
+                                        <div class="property-info-box-heading">
+                                            <img src="images/shawer-icon.svg" alt=""> <span>3</span>
+                                        </div>
+                                        <span>Bathrooms</span>
+                                    </div>
+                                    <div class="property-info-box">
+                                        <div class="property-info-box-heading">
+                                            <img src="images/square-icon.svg" alt=""> <span>3</span>
+                                        </div>
+                                        <span>Living Area</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!--box-->
+                        <div class="ra-property-box">
+                            <!--img-->
+                            <div class="ra-property-img">
+                                <div class="ra-property-img-grid">
+                                    <img src="images/p-demo.jpeg" alt=""/>
+                                    <img src="images/p-demo.jpeg" alt=""/>
+                                    <img src="images/p-demo.jpeg" alt=""/>
+                                </div>
+                            </div>
+                            <!--text-->
+                            <div class="ra-property-text">
+                                <div class="ra-property-text-top">
+                                    <div class="property-text-title">
+                                        <strong>Parahyangan Estate</strong>
+                                        <span><img src="images/box-location-icon.svg" alt=""/> Lembang, Indonesia</span>
+                                    </div>
+                                    <div class="property-text-options">
+                                        <a href="#">
+                                            <img src="images/box-option-1.svg" alt="">
+                                        </a>
+                                        <a href="#">
+                                            <img src="images/box-option-2.svg" alt="">
+                                        </a>
+                                        <a href="#">
+                                            <img src="images/box-option-3.svg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="ra-property-text-bottom">
+                                    <div class="property-info-box">
+                                        <div class="property-info-box-heading">
+                                            <img src="images/bed-icon.svg" alt=""> <span>3</span>
+                                        </div>
+                                        <span>Bedrooms</span>
+                                    </div>
+                                    <div class="property-info-box">
+                                        <div class="property-info-box-heading">
+                                            <img src="images/shawer-icon.svg" alt=""> <span>3</span>
+                                        </div>
+                                        <span>Bathrooms</span>
+                                    </div>
+                                    <div class="property-info-box">
+                                        <div class="property-info-box-heading">
+                                            <img src="images/square-icon.svg" alt=""> <span>3</span>
+                                        </div>
+                                        <span>Living Area</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="map-close">
+                        <label for="close-map"><i class="fa-solid fa-angle-left"></i></label>
+                        <label for="close-map"><i class="fa-solid fa-angle-right"></i></label>
+                    </div>
+                    <div class="map-mobile-bg"></div>
+                </div>
+                <!--map-->
+                <div class="ra-map">
+                    <label for="close-map" class="close-mobile-map"><i class="fa-solid fa-angle-right"></i></label>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34201.55899641995!2d-74.01711614416355!3d40.739599757997304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2597d74a00a49%3A0xcd7bcb84f67a7cb0!2sTime%20Square!5e0!3m2!1sen!2s!4v1666808198531!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+    </section>
+    
+</body>
+</html>
